@@ -17,7 +17,7 @@ describe('', ()=>{
         expect(newState).toStrictEqual([todo]);
     })
 
-    /* it('action.type === deleteTodoのときTodoに1件削除される', ()=>{
+    it('action.type === deleteTodoのときTodoに1件削除される', ()=>{
         const dummyIndex = 1;
         const action = deleteTodo(dummyIndex);
         const initialState = ['jiji', 'hogehoge', 'hugahuga'];
@@ -40,6 +40,6 @@ describe('', ()=>{
 
         expect(newState[0].hasCompleted()).toStrictEqual(true);
 
-    }) */
+    })
     
 })

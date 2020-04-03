@@ -2,7 +2,7 @@ import {ADD_TODO, DELETE_TODO, TOGGLE_TODO_COMPLETED} from '../action/todoAction
 import { Todo } from '../modules/Todo';
 
 export const todoActionCreatorReducer = (state = [], action)=>{
-    switch(action.tyoe){
+    switch(action.type){
         case ADD_TODO:
             const todo = new Todo(action.text);
             return [
